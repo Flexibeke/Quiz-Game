@@ -9,7 +9,7 @@ body {
   place-items: center;
 }
 .center {
-  width: 50vh;
+  width: 38vh;
   border-radius: 5vh;
   box-shadow: 0 0 0.9vh rgb(0, 0, 0);
   padding: 4vh;
@@ -59,3 +59,4 @@ nav {
 #score {
   text-align: end;
 }
+
