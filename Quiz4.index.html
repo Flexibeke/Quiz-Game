@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Quiz-Game-global-Styl.style.css" />
+    <title>Quiz n° 4</title>
+  </head>
+  <body>
+    <div class="center">
+      <h1>Qual é a unidade básica da hereditariedade?</h1>
+      <div id="score"></div>
+      <button class="tests" onclick="test(this, false)">Célula</button>
+      <!--this significa "use este agora" se clicar no 1, this sera botão 1... -->
+      <button class="tests" id="opn" onclick="test(this, true)">Gene</button>
+      <button class="tests" onclick="test(this, false)">Átomo</button>
+      <button class="tests" onclick="test(this, false)">Molécula</button>
+      <nav>
+        <button id="navegation" disabled>Próximo</button>
+      </nav>
+    </div>
+
+    <script>
+      document
+        .getElementById("navegation")
+        .addEventListener("click", function () {
+          window.location.href = "Quiz-Final.index.html";
+        });
+    </script>
+    <script src="Quiz-Global.main.js"></script>
+  </body>
+</html>

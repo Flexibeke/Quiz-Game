@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Quiz-Game-global-Styl.style.css" />
+    <title>Quiz n° 3</title>
+  </head>
+  <body>
+    <div class="center">
+      <h1>Em que período da História ocorreu a Revolução Industrial?</h1>
+      <div id="score"></div>
+      <button class="tests" onclick="test(this, false)">Idade Média</button>
+      <!--this significa "use este agora" se clicar no 1, this sera botão 1... -->
+      <button class="tests" id="opn" onclick="test(this, true)">
+        Século XVIII e XIX
+      </button>
+      <button class="tests" onclick="test(this, false)">Idade Antiga</button>
+      <button class="tests" onclick="test(this, false)">Século XXI</button>
+      <nav>
+        <button id="navegation" disabled>Próximo</button>
+      </nav>
+    </div>
+
+    <script>
+      document
+        .getElementById("navegation")
+        .addEventListener("click", function () {
+          window.location.href = "Quiz4.index.html";
+        });
+    </script>
+    <script src="Quiz-Global.main.js"></script>
+  </body>
+</html>

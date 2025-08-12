@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Quiz-Game-global-Styl.style.css" />
+    <title>Quiz n° 1</title>
+  </head>
+  <body>
+    <div class="center">
+      <h1>Qual a fórmula química da água?</h1>
+      <div id="score">Score: 0</div>
+      <button class="tests" onclick="test(this, false)">CO²</button>
+      <!--this significa "use este agora" se clicar no 1, this sera botão 1... -->
+      <button class="tests" id="opn" onclick="test(this, true)">H²O</button>
+      <button class="tests" onclick="test(this, false)">NaCI</button>
+      <button class="tests" onclick="test(this, false)">O²</button>
+      <nav>
+        <button id="navegation" disabled>Próximo</button>
+      </nav>
+    </div>
+
+    <script>
+      document
+        .getElementById("navegation")
+        .addEventListener("click", function () {
+          window.location.href = "Quiz2.index.html";
+        });
+    </script>
+    <script src="Quiz1.main.js"></script>
+  </body>
+</html>
