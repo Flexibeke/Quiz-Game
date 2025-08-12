@@ -9,7 +9,7 @@ body {
   place-items: center;
 }
 #center {
-  width: 50vh;
+  width: 38vh;
   border-radius: 5vh;
   box-shadow: 0 0 0.9vh rgb(0, 0, 0);
   padding: 4vh;
@@ -40,3 +40,4 @@ a:hover {
   background: #094a9f;
   box-shadow: 0 0 1.3vh #568ef5, 0 0 1.4vh #568ef5, 0 0 1.4vh #568ef5;
 }
+
